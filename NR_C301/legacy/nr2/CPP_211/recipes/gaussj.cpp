@@ -9,14 +9,13 @@ void NR::gaussj(Mat_IO_DP &a, Mat_IO_DP &b)
 	DP big,dum,pivinv;
 
 	int n=a.nrows();
-	int m=b.ncols();
-	
+	int m=b.ncols();	
 	Vec_INT indxc(n),indxr(n),ipiv(n);
 
 	for (j=0;j<n;j++) ipiv[j]=0;	//These integer arrays are used for bookkeeping on the pivoting
 	for (i=0;i<n;i++) {				//This is the main loop over the columns to be reduced.
 		big=0.0;
-		cout << endl << "i =" << i << endl;
+		cout << endl << endl << endl << "************ i = " << i << endl;
 		for (j=0;j<n;j++)			//This is the outer loop of the search for a pivot element;
 			if (ipiv[j] != 1)
 				for (k=0;k<n;k++) {
@@ -40,7 +39,7 @@ void NR::gaussj(Mat_IO_DP &a, Mat_IO_DP &b)
 				cout << endl;
 			}
 
-			cout << endl << "change vector b : " << endl;
+			cout << endl << "change Vector b : " << endl;
 			for (z = 0; z<n; z++) {
 				for (ls = 0; ls<m; ls++) cout << setw(12) << b[z][ls];
 				cout << endl;
@@ -52,6 +51,7 @@ void NR::gaussj(Mat_IO_DP &a, Mat_IO_DP &b)
 		if (a[icol][icol] == 0.0) nrerror("gaussj: Singular Matrix");
 		pivinv=1.0/a[icol][icol];
 		cout << "pivinv = " << pivinv << endl;
+		cout << "Main Col => a[" << icol << "][" << icol << "] = 1;" << endl;
 		a[icol][icol]=1.0;
 		for (l=0;l<n;l++) a[icol][l] *= pivinv;
 		for (l=0;l<m;l++) b[icol][l] *= pivinv;
@@ -61,16 +61,18 @@ void NR::gaussj(Mat_IO_DP &a, Mat_IO_DP &b)
 			for (ls = 0; ls<n; ls++) cout << setw(12) << a[z][ls];
 			cout << endl;
 		}
-		cout << endl << "pivinv vector b : " << endl;
+		cout << endl << "pivinv Vector b : " << endl;
 		for (z = 0; z<n; z++) {
 			for (ls = 0; ls<m; ls++) cout << setw(12) << b[z][ls];
 			cout << endl;
 		}
-		cout << "Current icol = " << icol << setw(20) <<  "Currenct irow = " << irow << endl;
+
+		/*Debug used*/
+		cout << "Current icol = " << icol << setw(20) <<  "Current irow = " << irow << endl;
 		for (ll=0;ll<n;ll++)
 			if (ll != icol) {
-				dum=a[ll][icol];
-				cout << "dum = " << dum << endl;
+				dum=a[ll][icol];				
+				cout << "dum = " << "a[" << ll << "][" << icol << "] = " << dum << endl;
 				a[ll][icol]=0.0;
 				cout << "a[" << ll << "][" << icol << "] = " << a[ll][icol] << endl;
 				for (l = 0; l < n; l++) {
@@ -84,21 +86,28 @@ void NR::gaussj(Mat_IO_DP &a, Mat_IO_DP &b)
 				}
 			}
 
-		/* Out put the change*/
+		/* Export the change*/
 		cout << endl << "Matrix a : " << i << endl;
 		for (z = 0; z<n; z++) {
 			for (ls = 0; ls<n; ls++) cout << setw(12) << a[z][ls];
 			cout << endl;
 		}
-		cout << endl << "vector b : " << i <<  endl;
+		cout << endl << "Vector b : " << i <<  endl;
 		for (z = 0; z<n; z++) {
 			for (ls = 0; ls<m; ls++) cout << setw(12) << b[z][ls];
 			cout << endl;
 		}
 	}
 	for (l=n-1;l>=0;l--) {
-		if (indxr[l] != indxc[l])
-			for (k=0;k<n;k++)
-				SWAP(a[k][indxr[l]],a[k][indxc[l]]);
+		if (indxr[l] != indxc[l]) {
+			for (k = 0; k < n; k++)
+				SWAP(a[k][indxr[l]], a[k][indxc[l]]);
+
+				cout << endl << "Matrix A columns Change: " << l << endl;
+				for (z = 0; z<n; z++) {
+					for (ls = 0; ls<n; ls++) cout << setw(12) << a[z][ls];
+					cout << endl;
+				}
+		}
 	}
 }

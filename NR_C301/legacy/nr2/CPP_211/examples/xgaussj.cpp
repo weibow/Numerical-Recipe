@@ -7,6 +7,7 @@
 #include <iostream>
 #include <iomanip>
 #include "nr.h"
+#include <cstdlib>
 
 using namespace std;
 
@@ -42,7 +43,7 @@ int main(void)
 	cout << fixed << setprecision(6);
 	getline(fp, dummy);
 	cout << dummy << endl;
-
+	system("color 21");
 	/*cout << "world" << endl;*/
 	//char newline{ '\n' };
 	//cout << newline;
@@ -98,8 +99,7 @@ int main(void)
 			for (l = 0; l<n; l++) cout << setw(12) << u[k][l];
 			cout << endl;
 		}
-
-
+		
 
 		cout << endl << "Solution a : " << endl;
 		for (k = 0; k<n; k++) {
@@ -123,6 +123,10 @@ int main(void)
 		cout << "***********************************" << endl;
 		cout << "press RETURN for next problem:" << endl;
 		cin.get();
+
+		for (k = 0; k < 10; k++)
+			cout << endl;
+		system("cls");
 	}
 	fp.close();
 
