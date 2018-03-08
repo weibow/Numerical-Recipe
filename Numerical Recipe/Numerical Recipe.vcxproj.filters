@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrtypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrtypes_lib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrtypes_nr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_mtl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_nr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_tnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_val.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\print_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\other\nrexit.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\addint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\airy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\amoeba.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\amotry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\anneal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\anorm2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\arcmak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\arcode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\arcsum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\avevar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\balanc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\banbks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bandec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\banmul.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bcucof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bcuint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\beschb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessi0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessi1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessik.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessj0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessj1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessjy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessk0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessk1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessy0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessy1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\beta.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\betacf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\betai.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bico.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bksub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bnldev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\brent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\broydn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bsstep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\caldat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chebev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chebft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chebpc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chixy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\choldc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cholsl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chsone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chstwo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cisi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cntab1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cntab2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\convlv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\copy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\correl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cosft1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cosft2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\covsrt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\crank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cyclic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\daub4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dawson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dbrent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ddpoly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\decchk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\df1dim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dfpmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dfridr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dftcor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dftint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dlinmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eclazz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ei.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eigsrt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\elle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ellf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ellpi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\elmhes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\erfcc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\erff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\erffc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eulsum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\evlmem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\expdev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\expint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\f1dim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\factln.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\factrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fasper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fdjac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fgauss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fitexy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fixrts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fleg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\flmoon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\four1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fourew.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fourfs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fourn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fpoly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fred2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fredin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\frenel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ftest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gamdev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gammln.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gammp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gammq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gasdev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaucof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gauher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaujac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaulag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gauleg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaussj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gcf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\golden.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hpsel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hpsort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hqr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufapp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufdec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufenc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufmak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hunt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hypdrv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hypgeo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hypser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\icrc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\icrc1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\igray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\indexx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\interp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\irbit1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\irbit2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\jacobi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\jacobn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\julday.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kendl1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kendl2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kermom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ks2d1s.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ks2d2s.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ksone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kstwo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\laguer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lfit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lnsrch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\locate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lubksb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ludcmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\machar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\matadd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\matsub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\memcof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\metrop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mgfas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mglin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midexp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midinf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midpnt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midsql.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midsqu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mmid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mnbrak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\moment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mp2dfr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpdiv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpinv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpmul.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpops.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mppi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mprove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpsqrt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mrqcof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mrqmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\odeint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\orthog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pccheb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pcshft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pearsn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\period.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\piksr2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\piksrt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pinvs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\plgndr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\poidev.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polcoe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polcof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\poldiv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polin2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\predic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\probks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\psdes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pwt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pwtset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pythag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pzextr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qgaus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qrdcmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qromb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qromo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qroot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qrsolv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qrupdt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qsimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qtrap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\quadct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\quadmx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\quadvl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ratint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ratlsq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ratval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\realft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rebin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\red.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\relax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\relax2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\resid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\revcst.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\reverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rk4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rkck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rkqs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rlft3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rotate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rsolv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rstrct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtbis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtflsp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtnewt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtsafe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtsec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rzextr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\savgol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\scrsho.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\select.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\selip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\shell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simp1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simp2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simp3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simplx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simpr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sinft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\slvsm2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\slvsml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sncndn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\snrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sobseq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sort2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sort3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spctrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spear.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sphbes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\splie2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\splin2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\splint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprsax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprsin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprspm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprstm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprstp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprstx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\stiff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\stoerm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svbksb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svdcmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svdfit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svdvar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\toeplz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tptest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tqli.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\trapzd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tred2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tridag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\trncst.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\trnspt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ttest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tutest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\twofft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\vander.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\voltra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\wt1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\wtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\wwghts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zbrac.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zbrak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zbrent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zrhqr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zriddr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zroots.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\examples\xgaussj.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

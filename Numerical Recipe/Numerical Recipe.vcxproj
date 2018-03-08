@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{4F2EFD34-4A87-4A67-8385-F6A234897B59}</ProjectGuid>
+    <RootNamespace>NumericalRecipe</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\git_new_repository\Numerical Recipe\Numerical Recipe\NR_C301\legacy\nr2\CPP_211\other;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nr.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrtypes.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrtypes_lib.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrtypes_nr.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_mtl.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_nr.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_tnt.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\nrutil_val.h" />
+    <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\print_array.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\examples\xgaussj.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\other\nrexit.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\addint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\airy.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\amoeba.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\amotry.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\anneal.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\anorm2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\arcmak.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\arcode.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\arcsum.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\avevar.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\balanc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\banbks.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bandec.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\banmul.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bcucof.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bcuint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\beschb.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessi.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessi0.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessi1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessik.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessj.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessj0.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessj1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessjy.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessk.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessk0.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessk1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessy.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessy0.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bessy1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\beta.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\betacf.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\betai.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bico.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bksub.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bnldev.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\brent.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\broydn.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\bsstep.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\caldat.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chder.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chebev.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chebft.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chebpc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chixy.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\choldc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cholsl.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chsone.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\chstwo.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cisi.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cntab1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cntab2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\convlv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\copy.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\correl.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cosft1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cosft2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\covsrt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\crank.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\cyclic.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\daub4.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dawson.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dbrent.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ddpoly.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\decchk.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\df1dim.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dfpmin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dfridr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dftcor.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dftint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\dlinmin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eclass.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eclazz.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ei.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eigsrt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\elle.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ellf.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ellpi.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\elmhes.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\erfcc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\erff.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\erffc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\eulsum.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\evlmem.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\expdev.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\expint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\f1dim.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\factln.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\factrl.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fasper.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fdjac.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fgauss.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fit.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fitexy.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fixrts.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fleg.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\flmoon.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fmin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\four1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fourew.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fourfs.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fourn.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fpoly.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fred2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\fredin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\frenel.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ftest.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gamdev.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gammln.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gammp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gammq.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gasdev.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaucof.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gauher.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaujac.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaulag.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gauleg.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gaussj.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gcf.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\golden.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\gser.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hpsel.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hpsort.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hqr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufapp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufdec.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufenc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hufmak.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hunt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hypdrv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hypgeo.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\hypser.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\icrc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\icrc1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\igray.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\indexx.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\interp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\irbit1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\irbit2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\jacobi.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\jacobn.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\julday.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kendl1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kendl2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kermom.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ks2d1s.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ks2d2s.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ksone.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\kstwo.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\laguer.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lfit.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lnsrch.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\locate.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lop.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\lubksb.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ludcmp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\machar.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\matadd.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\matsub.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\memcof.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\metrop.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mgfas.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mglin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midexp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midinf.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midpnt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midsql.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\midsqu.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mmid.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mnbrak.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\moment.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mp2dfr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpdiv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpinv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpmul.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpops.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mppi.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mprove.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mpsqrt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mrqcof.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\mrqmin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\odeint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\orthog.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pade.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pccheb.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pcshft.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pearsn.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\period.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\piksr2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\piksrt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pinvs.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\plgndr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\poidev.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polcoe.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polcof.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\poldiv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polin2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\polint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\predic.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\probks.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\psdes.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pwt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pwtset.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pythag.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\pzextr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qgaus.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qrdcmp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qromb.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qromo.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qroot.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qrsolv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qrupdt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qsimp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\qtrap.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\quadct.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\quadmx.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\quadvl.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran0.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran3.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ran4.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rank.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ratint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ratlsq.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ratval.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rc.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rd.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\realft.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rebin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\red.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\relax.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\relax2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\resid.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\revcst.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\reverse.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rf.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rj.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rk4.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rkck.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rkqs.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rlft3.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rotate.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rsolv.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rstrct.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtbis.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtflsp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtnewt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtsafe.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rtsec.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\rzextr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\savgol.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\scrsho.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\select.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\selip.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\shell.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simp1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simp2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simp3.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simplx.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\simpr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sinft.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\slvsm2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\slvsml.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sncndn.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\snrm.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sobseq.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sor.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sort.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sort2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sort3.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spctrm.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spear.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sphbes.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\splie2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\splin2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spline.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\splint.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\spread.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprsax.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprsin.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprspm.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprstm.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprstp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\sprstx.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\stiff.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\stoerm.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svbksb.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svdcmp.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svdfit.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\svdvar.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\toeplz.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tptest.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tqli.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\trapzd.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tred2.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tridag.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\trncst.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\trnspt.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\ttest.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\tutest.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\twofft.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\vander.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\voltra.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\wt1.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\wtn.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\wwghts.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zbrac.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zbrak.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zbrent.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zrhqr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zriddr.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zroots.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
