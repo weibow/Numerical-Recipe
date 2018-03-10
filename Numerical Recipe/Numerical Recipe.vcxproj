@@ -125,7 +125,7 @@
     <ClInclude Include="..\NR_C301\legacy\nr2\CPP_211\other\print_array.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\examples\xgaussj.cpp" />
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\examples\xludcmp.cpp" />
     <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\other\nrexit.cpp" />
     <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\addint.cpp" />
     <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\airy.cpp" />

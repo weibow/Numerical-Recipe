@@ -7,6 +7,7 @@
 using namespace std;
 
 typedef double DP;
+typedef double Doub;
 
 // Vector Types
 
@@ -20,7 +21,7 @@ typedef const NRVec<unsigned char> Vec_I_UCHR;
 typedef NRVec<unsigned char> Vec_UCHR, Vec_O_UCHR, Vec_IO_UCHR;
 
 typedef const NRVec<int> Vec_I_INT;
-typedef NRVec<int> Vec_INT, Vec_O_INT, Vec_IO_INT;
+typedef NRVec<int> VecInt, Vec_INT, Vec_O_INT, Vec_IO_INT;
 
 typedef const NRVec<unsigned int> Vec_I_UINT;
 typedef NRVec<unsigned int> Vec_UINT, Vec_O_UINT, Vec_IO_UINT;
@@ -35,7 +36,7 @@ typedef const NRVec<float> Vec_I_SP;
 typedef NRVec<float> Vec_SP, Vec_O_SP, Vec_IO_SP;
 
 typedef const NRVec<DP> Vec_I_DP;
-typedef NRVec<DP> Vec_DP, Vec_O_DP, Vec_IO_DP;
+typedef NRVec<DP> VecDoub, Vec_DP, Vec_O_DP, Vec_IO_DP, VecDoub_O, VecDoub_I, VecDoub_IO;
 
 typedef const NRVec<complex<float> > Vec_I_CPLX_SP;
 typedef NRVec<complex<float> > Vec_CPLX_SP, Vec_O_CPLX_SP, Vec_IO_CPLX_SP;
@@ -70,7 +71,7 @@ typedef const NRMat<float> Mat_I_SP;
 typedef NRMat<float> Mat_SP, Mat_O_SP, Mat_IO_SP;
 
 typedef const NRMat<DP> Mat_I_DP;
-typedef NRMat<DP> Mat_DP, Mat_O_DP, Mat_IO_DP;
+typedef NRMat<DP> Mat_DP, MatDoub, Mat_O_DP, Mat_IO_DP, MatDoub_I, MatDoub_O;
 
 typedef const NRMat<complex<float> > Mat_I_CPLX_SP;
 typedef NRMat<complex<float> > Mat_CPLX_SP, Mat_O_CPLX_SP, Mat_IO_CPLX_SP;

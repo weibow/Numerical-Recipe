@@ -995,7 +995,7 @@
     <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\recipes\zroots.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\examples\xgaussj.cpp">
+    <ClCompile Include="..\NR_C301\legacy\nr2\CPP_211\examples\xludcmp.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
